@@ -1,0 +1,56 @@
+header{
+    background-color: forestgreen;
+    width: fit-page;
+    height: 200px;
+}
+header p{
+    position: absolute;
+    text-align: left;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 50px;
+}
+#contact{
+    font-family: monospace;
+    text-align: right;
+    font-weight: bold;
+    color: forestgreen;
+    font-size: 15px;
+}
+h3{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    color: darkorange;
+    font-weight: bold;
+    font-size: 21px;
+    margin-bottom: -5px;
+}
+.content{
+    font-family: monospace;
+    text-align: left;
+    color: darkgreen;
+    font-weight: bold;
+    font-size: 20px;
+}
+.inline{
+    display: inline-block;
+}
+.unstyled{
+    list-style-type: none;
+}
+div{
+    margin-bottom: -10px;
+}
+footer{
+    background-color: forestgreen;
+    width: fit-page;
+    height: 20px;
+}
+footer p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-weight: bold;
+    text-align: right;
+    position: middle; 
+}
