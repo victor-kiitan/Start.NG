@@ -5,10 +5,11 @@
         <link rel="stylesheet" type="text/css" href="styles.css">
         <title>OLADOSU VICTOR KIITAN'S CV</title>
     </head>
-    <header>
-        <p>OLADOSU, Victor Kiitan<br>Front-End Developer & Graphics Designer</p>
-    </header>
     <body>
+        <header>
+            <p id="topTitle">OLADOSU, Victor Kiitan.<br>Front-End Developer & Graphics Designer</p>
+
+        </header>
         <div id="contact">
             <p>No.1 Francis Okocha Street, Rukpakwolusi New Layout, off East-West Road,<br>Port-Harcourt, Rivers State, Nigeria<br><strong>Phone No:</strong> <a href="tel:+2347065703791">+2347065703791</a><br><strong>E-mail address:</strong> <a href="mailto:oladosukiitan@gmail.com">oladosukiitan@gmail.com</a></p>
         </div>
@@ -99,8 +100,19 @@
                     <li>08070362082</li>
                 </ul>
             </div>
+            <div class="contactForm">
+                <h3><strong>CONTACT:</strong><h3>
+                    <form action="" method="POST">
+                        <p class="inform">Name:<input type="text" name="Name" placeholder="Your Name" class="field" id="fName"></p>
+                        <p class="inform">Email:<input type="email" name="Email" placeholder="Email Adress" class="field" id="fEmail"></p>
+                        <p class="inform">Title:<input type="text" name="Title" placeholder="Subject:" class="field"></p>
+                        <p class="inform">Message:<textarea rows="5" placeholder="Your Message" class="field" id="fMessage"></textarea></p>
+                        <p><input type="submit" value="Send" id="submit"></p>
+                    </form>
+            </div>
     <footer>
         <p>OLADOSU VICTOR KIITAN</p>
-    </footer>         
+    </footer>
+    <script src="script.js"></script>         
     </body>
 </html>
